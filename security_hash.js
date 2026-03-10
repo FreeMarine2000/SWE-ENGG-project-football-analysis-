@@ -40,5 +40,5 @@ function generateFileHash(filePath) {
     }
 }
 
-// Run the function hash:f08680d7c5275f584b4774b5b2bde96ab40f254df085d4fad4ece6863859c23f
+// Run the function hash
 generateFileHash(targetFile);
