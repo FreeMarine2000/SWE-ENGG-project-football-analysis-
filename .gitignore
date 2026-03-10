@@ -55,3 +55,4 @@ Thumbs.db
 .env
 .cache/
 *.log
+security_ledger.txt
