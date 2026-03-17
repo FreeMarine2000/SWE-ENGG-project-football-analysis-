@@ -5,7 +5,7 @@ const fs = require('fs');
 const targetFile = 'la_liga_injuries.csv';
 
 function generateFileHash(filePath) {
-    console.log(`\n🛡️ Initiating Security Protocol for: ${filePath}`);
+    console.log(`\n Initiating Security Protocol for: ${filePath}`);
     
     // 1. Check if the file actually exists first
     if (!fs.existsSync(filePath)) {
@@ -24,10 +24,10 @@ function generateFileHash(filePath) {
         // 4. Output the digital fingerprint in hexadecimal format
         const hexHash = hashSum.digest('hex');
 
-        console.log(`✅ Data Integrity Fingerprint Generated!`);
+        console.log(`Data Integrity Fingerprint Generated!`);
         console.log(`-----------------------------------------------------`);
-        console.log(`📄 File: ${filePath}`);
-        console.log(`🔑 SHA-256 Hash: ${hexHash}`);
+        console.log(` File: ${filePath}`);
+        console.log(` SHA-256 Hash: ${hexHash}`);
         console.log(`-----------------------------------------------------`);
         console.log(`Save this hash! If the CSV is altered by even one byte, this hash will change completely.`);
 
