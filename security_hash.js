@@ -41,4 +41,4 @@ function generateFileHash(filePath) {
 }
 
 // Run the function hash
-generateFileHash(targetFile);
+generateFileHash(targetFile); 
