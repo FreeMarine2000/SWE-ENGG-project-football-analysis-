@@ -45,6 +45,7 @@ Thumbs.db
 # Large data files (if needed, uncomment)
 *.csv
  *.xlsx
+ *.enc
 
 # Matplotlib figures
 *.png
